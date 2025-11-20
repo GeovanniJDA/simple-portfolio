@@ -14,26 +14,29 @@
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/acordeon.css" />
-    <link rel="stylesheet" href="./assets/css/languages.css">
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
-    <div class="main">
+    <main class="main">
       <header class="header">
         <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar" />
         <h1 class="header__title">Olá, <br />eu sou seu-nome</h1>
         <div class="header__info">
           <p class="person">Formação</p>
           <p class="location">Localização</p>
-          <p class="phone">(12) 3 3456-7890</p>
-          <p class="mail">exemplo@email.com</p>
+          <p class="phone">
+            <a href="tel:(12) 3 3456-7890">(12) 3 3456-7890</a>
+          </p>
+          <p class="mail">
+            <a href="mailto:exemplo@email.com">exemplo@email.com</a>
+          </p>
         </div>
       </header>
 
       <section class="acordeon open">
-        <button class="trigger" type="button">
-          Idiomas
-        </button>
+        <button class="trigger" type="button">Idiomas</button>
         <div class="content">
           <ul class="languages">
             <li>Português</li>
@@ -42,7 +45,33 @@
           </ul>
         </div>
       </section>
-    </div>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Portfólio</button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <span class="title github">Titulo do seu projeto</span>
+              <a href="https://duckduckgo.com/" target="_blank"
+                >Link do seu projeto</a
+              >
+            </li>
+            <li>
+              <span class="title github">Titulo do seu projeto</span>
+              <a href="https://duckduckgo.com/" target="_blank"
+                >Link do seu projeto</a
+              >
+            </li>
+            <li>
+              <span class="title github">Titulo do seu projeto</span>
+              <a href="https://duckduckgo.com/" target="_blank"
+                >Link do seu projeto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script src="./assets/js/acordeon.js"></script>
   </body>
 </html>
