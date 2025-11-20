@@ -22,11 +22,13 @@ body {
   border-radius: 1rem;
 }
 
-.header__main::before {
+.header__main::before,
+.header__main::after 
+{
   content: '';
   display: inline-block;
   width: 130vw;
-  height: 100vh;
+  height: 90vh;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -38,16 +40,9 @@ body {
 
 
 .header__main::after{
-  content: '';
-  display: inline-block;
-  width: 100vw;
-  height: 80vh;
-  position: fixed;
-  z-index: -1;
+  top: auto;
+  left: auto;
   bottom: 0;
   right: 0;
-  background-image: url('../img/background.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
   transform: rotate(180deg);
 }

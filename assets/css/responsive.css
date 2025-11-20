@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px){
+  .header {
+    display: grid;
+    grid-template-areas: 
+    "photo title"
+    "photo info"
+
+    ;
+  }
+
+  .avatar {
+    grid-area: photo;
+    margin: 0 auto;
+  }
+
+  .header__title {
+    grid-area: title;
+    text-align: start;
+    max-width: 150px;
+  }
+
+  .header__info{
+    grid-row: info;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .header__main {
+    max-width: 1024px;
+    margin: 1rem auto;
+  }
+}
