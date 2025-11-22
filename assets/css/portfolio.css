@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 1.10em;
   font-weight: 700;
+  margin: 0;
   margin-bottom: .5rem;
 }
 
@@ -33,14 +33,4 @@
   background-image: url("../img/icons/github.svg");
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.portfolio li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-.portfolio li a:hover {
-  text-decoration: underline;
 }

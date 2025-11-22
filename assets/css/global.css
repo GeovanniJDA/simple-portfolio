@@ -24,6 +24,19 @@ a:hover {
   text-decoration: underline;
 }
 
+h2,h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.10em;
+}
+
+p {
+  text-align: justify;
+}
+
 .main {
   margin: 1rem;
   padding: 1rem;
