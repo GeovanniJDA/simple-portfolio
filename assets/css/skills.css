@@ -1,0 +1,36 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tools ul li img {
+  max-width: 3.125rem;
+  margin: .5rem;
+}
+
+.personal ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  padding: 0;
+
+}
+
+.personal ul li {
+  margin-left: 2rem;
+  padding: .5rem;
+}
