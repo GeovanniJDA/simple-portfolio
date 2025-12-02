@@ -1,6 +1,6 @@
 {
   "name": "Seu nome",
-  "photo": "../assets/img/avatar.jpg",
+  "photo": "assets/img/avatar.jpg",
   "job": "Seu trabalho",
   "location": "São Paulo - SP",
   "phone": "(12) 34567-8912",
@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "Nodejs",
-        "logo": "/data/imgs/nodejs.png"
+        "logo": "data/imgs/nodejs.png"
       },
       {
         "name": "Java",
-        "logo": "/data/imgs/java.png"
+        "logo": "data/imgs/java.png"
       },
       {
         "name": "React",
-        "logo": "/data/imgs/react.png"
+        "logo": "data/imgs/react.png"
       },
       {
         "name": "JavaScript",
-        "logo": "/data/imgs/js.png"
+        "logo": "data/imgs/js.png"
       },
       {
         "name": "GitHub",
-        "logo": "/data/imgs/github.png"
+        "logo": "data/imgs/github.png"
       },
       {
         "name": "PHP",
-        "logo": "/data/imgs/php.png"
+        "logo": "data/imgs/php.png"
       }
     ],
     "softSkills": [
@@ -60,7 +60,7 @@
   "professionalExperience": [
     {
       "name": "Front-End",
-      "period": "2025 - até o momento",
+      "period": "2024 - até o momento",
       "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
     },
     {
